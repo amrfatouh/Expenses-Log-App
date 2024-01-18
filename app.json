@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "ExpensesApp",
+    "name": "Expense Log",
     "slug": "ExpensesApp",
     "version": "1.0.0",
+    "primaryColor": "#336c83",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -11,20 +12,25 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.amrfatouh.expenseslog"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fb81b308-1d8c-484d-8488-515f163ec59b"
+      }
     }
   }
 }
